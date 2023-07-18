@@ -1,0 +1,48 @@
+.navbar {
+    list-style: none;
+    height: 6rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    margin: 0;
+    margin-right: 1rem;
+}
+
+.navbar li {
+    padding: 0 2rem;
+    cursor: pointer;
+}
+
+.navbar p {
+    color: var(--link-color);
+    margin: 0;
+    font-size: 1.2rem;
+    line-height: 6rem;
+}
+
+.navbar p:hover {
+    color: var(--link-color-hover);;
+}
+
+@media (max-width: 1024px) {
+    .navbar li {
+        padding: 0 1rem;
+    }
+}
+
+@media (max-width: 812px) {
+    .navbar {
+        flex-direction: column;
+        margin: 0;
+        margin-top: 2rem;
+    }
+
+    .navbar li {
+        padding: 0;
+        margin-right: 2rem;
+    }
+
+    .navbar p {
+        line-height: 4rem;
+    }
+}

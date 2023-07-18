@@ -1,0 +1,18 @@
+:root {
+    --link-color: #00B4D8;
+    --link-color-hover: #0E798F;
+    --title-color: #FFFFFF;
+    --subtitle-color: #0077B6;
+    --text-main: #191919;
+    --text-secondary: #FFFFFF;
+    --button-main: #EF233C;
+    --button-main-hover: #D70922;
+    --button-secondary: #F77F00;
+    --button-secondary-hover: #EA9234;
+    --button-accent: #ADE8F4;
+    --button-accent-hover: #80E0F3;
+    --ribbon-color: #0077B6;
+    --background-main: #191919;
+    --background-dark: #070A97;
+    --contact-background: #CAF0F8;
+}

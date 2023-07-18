@@ -1,0 +1,89 @@
+.form-control {
+    margin: .25rem 0;
+}
+
+.form-control label,
+.form-control input {
+    display: block;
+    height: 3rem;
+}
+
+.form-control textarea {
+    display: block;
+}
+  
+.form-control label {
+    display: none;
+}
+  
+.form-control input,
+.form-control textarea {
+    width: 100%;
+    font: inherit;
+    border: none;
+    background: #f8f8f8;
+    padding: 0.75rem 0.25rem;
+    box-sizing: border-box;
+}
+  
+.form-control input:focus,
+.form-control textarea:focus {
+    outline: none;
+    background: #ebebeb;
+    border-color: #510077;
+}
+  
+.form-control--invalid label,
+.form-control--invalid p {
+    color: red;
+    margin: .25rem;
+}
+  
+.form-control--invalid input,
+.form-control--invalid textarea {
+    border-color: red;
+    background: #ffd1d1;
+}
+
+@media (max-width: 1024px) {
+    .form-control input,
+    .form-control textarea {
+    }
+}
+
+@media (max-width: 812px) {
+    .form-control input,
+    .form-control textarea {
+    }
+}
+
+.quantity-input-container {
+    position: relative;
+}
+
+.quantity-input-container input {
+    width: 5rem;
+    margin: 0;
+    margin-left: 1rem;
+}
+
+.quantity-input-button {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height: 50%;
+    width: 2rem;
+    background-color: var(--text-secondary);
+    color: var(--text-main);
+    border: 1px solid var(--text-main);
+    cursor: pointer;
+}
+
+.quantity-input-button:hover {
+    background-color: var(--text-main-hover);
+}
+
+.button-top {
+    top: 0;
+    right: 0;
+}

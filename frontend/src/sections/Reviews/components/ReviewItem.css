@@ -1,0 +1,34 @@
+.review-container {
+    position: relative;
+    background-color: var(--background-dark);
+}
+
+.review-front {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    width: 100%;
+    height: 100%;
+    background-color: var(--button-accent);
+    overflow: hidden;
+}
+
+.review-text {
+    color: var(--text-main);
+    margin: 1rem;
+    font-weight: 300;
+    line-height: 1.8rem;
+}
+
+.review-author {
+    font-size: 1.6rem;
+    margin: 1rem;
+}
+
+@media (max-width: 1024px) {
+    .review-author {
+        font-size: 1.2rem;
+    }
+}

@@ -1,0 +1,29 @@
+.thank-you-section {
+    margin-top: 10rem;
+    margin-bottom: 4rem;
+    margin-left: 2rem;
+}
+
+.thank-you-section h3 {
+    color: var(--subtitle-color);
+    font-size: 2rem;
+    font-style: italic;
+    font-weight: 400;
+    margin: 0;
+}
+
+.thank-you-section p {
+    color: var(--text-main);
+    font-weight: 300;
+    font-size: 1.2rem;
+    margin-top: 2rem;
+}
+
+.thank-you-button {
+    background-color: var(--link-color);
+    margin-top: 2rem;
+}
+
+.thank-you-button:hover {
+    background-color: var(--link-color-hover);
+}

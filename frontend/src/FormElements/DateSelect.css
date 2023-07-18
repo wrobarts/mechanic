@@ -1,0 +1,135 @@
+.calendar-container {
+    width: 100%;
+    margin-top: 2rem;
+}
+
+.calendar-header {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--text-main);
+}
+
+.calendar-icon {
+    color: var(--text-secondary);
+    cursor: pointer;
+    font-size: 2rem;
+    margin: 1rem;
+}
+
+.calendar-icon:hover {
+    color: #DEDEDE;
+}
+
+.calendar-icon-disabled {
+    cursor: not-allowed;
+}
+
+.calendar-icon-disabled:hover {
+    color: var(--text-secondary);
+}
+
+.calendar-month {
+    color: var(--text-secondary);
+    font-size: 2rem;
+    margin: 0;
+    margin-top: 1rem;
+    text-align: center;
+    font-weight: 400;
+}
+
+.calendar-year {
+    color: var(--text-secondary);
+    font-size: 1.2rem;
+    font-style: italic;
+    margin: .5rem;
+    text-align: center;
+}
+
+.weekday-items {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding: 0;
+    color: var(--text-main);
+    background-color: #A4A4A4;
+    padding: .5rem 0 .5rem 0;
+    margin: 0;
+}
+
+.weekday-items li {
+    width: 100%;
+    text-align: center;
+}
+
+.day-row {
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+    margin: 0;
+    height: 3rem;
+    color: var(--text-main);
+    background-color: #D7D7D7;
+    list-style: none;
+    cursor: pointer;
+}
+
+.day-row li {
+    line-height: 3rem;
+    width: 100%;
+    text-align: center;
+}
+
+.day-row li:hover {
+    background-color: #BEBEBE;
+}
+
+.disabled {
+    color: #979797;
+    cursor: not-allowed;
+}
+
+.disabled.disabled-hover:hover {
+    background-color: #D7D7D7;
+}
+
+.active {
+    border: 2px solid #BEBEBE;
+}
+
+.reset-button {
+    border: none;
+    border-radius: 0 0 6px 6px;
+    width: 100%;
+    padding: .75rem;
+    color: var(--text-secondary);
+    font-size: 1rem;
+    cursor: pointer;
+    background-color: #830000;
+}
+
+.reset-button:hover {
+    background-color: #F34343;
+}
+
+.date-selected-text {
+    color: var(--text-secondary);
+    font-style: italic;
+}
+
+.date-selected-text span {
+    font-style: normal;
+}
+
+@media (max-width: 812px) {
+    .calendar-icon {
+        font-size: 1.6rem;
+    }
+
+    .calendar-month {
+        font-size: 1.6rem;
+    }
+
+    .calendar-year {
+        font-size: 1rem;
+    }
+}

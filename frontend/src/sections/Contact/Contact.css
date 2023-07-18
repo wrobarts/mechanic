@@ -1,0 +1,71 @@
+.contact-section {
+    position: relative;
+    background-color: var(--contact-background);
+    overflow: hidden;
+}
+
+.contact-triangle {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 16rem;
+    clip-path: polygon(0% 0%, 100% 0%, 50% 100%);
+    background-color: white;
+}
+
+.contact-section h3 {
+    color: var(--subtitle-color);
+    font-size: 2rem;
+    font-weight: 400;
+    font-style: italic;
+    text-align: center;
+    margin: 4rem;
+    margin-top: 20rem;
+}
+
+.contact-container {
+    display: flex;
+    justify-content: space-between;
+    width: 90vw;
+    margin-left: 5vw;
+    margin-bottom: 4rem;
+}
+
+.contact-image {
+    width: 36vw;
+}
+
+.contact-left p {
+    color: var(--text-main);
+    font-weight: 300;
+    line-height: 1.6rem;
+    font-size: 1.2rem;
+}
+
+.contact-left h5 {
+    font-size: 1.6rem;
+    color: var(--text-main);
+}
+
+@media (max-width: 1024px) {
+    .contact-container {
+        display: block;
+    }
+
+    .contact-image {
+        width: 60vw;
+    }
+}
+
+@media (max-width: 768px) {
+    .contact-image {
+        width: 80vw;
+    }
+}
+
+@media (max-width: 650px) {
+    .contact-image {
+        width: 90vw;
+    }
+}

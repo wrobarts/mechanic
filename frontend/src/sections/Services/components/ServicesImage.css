@@ -1,0 +1,8 @@
+.services-image {
+    background-image: url('../../../images/mechanic_blue.jpeg');
+    background-position: 0 0;
+    width: 100%;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    overflow: hidden;
+}

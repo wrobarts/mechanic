@@ -1,0 +1,92 @@
+.contact-form-section {
+    background-color: var(--background-dark);
+    width: 40vw;
+    padding: 2rem;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.contact-heading {
+    color: var(--text-secondary);
+    font-size: 1.6rem;
+    text-align: center;
+    margin: 0;
+    font-weight: 300;
+}
+
+.contact-input {
+    margin-top: 2rem;
+}
+
+.contact-button {
+    background-color: var(--button-secondary);
+    margin-top: 2rem;
+    width: 100%;
+    font-size: 1.2rem;
+}
+
+.date-toggle-button {
+    background-color: var(--button-accent);
+    color: var(--text-main);
+    width: 100%;
+    font-size: 1.2rem;
+    margin-top: 2rem;
+}
+
+.date-toggle-button:hover {
+    background-color: var(--button-accent-hover);
+}
+
+.contact-button:hover {
+    background-color: var(--button-secondary-hover);
+}
+
+@media (max-width: 1366px) {
+}
+
+@media (max-width: 1024px) {
+    .contact-form-section {
+        width: 60vw;
+    }
+}
+
+@media (max-width: 812px) {
+    .contact-heading {
+        font-size: 1.6rem;
+    }
+    
+    .contact-subheading {
+        font-size: 2.4rem;
+    }
+
+    .contact-input {
+        margin-top: 1rem;
+    }
+    
+    .contact-button {
+        margin-top: 1rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .contact-form-section {
+        width: 80vw;
+        padding: 1rem;
+    }
+}
+
+@media (max-width: 650px) {
+    .contact-form-section {
+        width: 90vw;
+    }
+}
+
+@media (max-width: 500px) {
+    .contact-heading {
+        font-size: 1.2rem;
+    }
+    
+    .contact-subheading {
+        font-size: 1.8rem;
+    }
+}

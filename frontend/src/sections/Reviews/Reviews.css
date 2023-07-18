@@ -1,0 +1,29 @@
+.reviews-section h3 {
+    font-size: 2rem;
+    color: var(--subtitle-color);
+    margin: 4rem;
+    text-align: center;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.reviews-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 4rem;
+    width: 80vw;
+    margin-left: 10vw;
+    margin-bottom: 4rem;
+}
+
+@media (max-width: 1024px) {
+    .reviews-container {
+        grid-gap: 3rem;
+    }
+}
+
+@media (max-width: 812px) {
+    .reviews-container {
+        grid-template-columns: 1fr;
+    }
+}

@@ -1,0 +1,62 @@
+.modal {
+    z-index: 100;
+    position: fixed;
+    top: 8rem;
+    left: 30vw;
+    width: 40vw;
+    background: white;
+    border-radius: 10px;
+    max-height: calc(100vh - 16rem);
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+@media (max-width: 1366px) {
+    .modal {
+        width: 50vw;
+        left: 25vw;
+    }
+}
+
+@media (max-width: 1024px) {
+    .modal {
+        width: 70vw;
+        left: 15vw;
+    }
+}
+
+@media (max-width: 812px) {
+    .modal {
+        width: 80vw;
+        left: 10vw;
+    }
+}
+
+@media (max-width: 500px) {
+    .modal {
+        width: 90vw;
+        left: 5vw;
+    }
+}
+  
+.modal-enter {
+    transform: translateY(-10rem);
+    opacity: 0;
+}
+  
+.modal-enter-active {
+    transform: translateY(0);
+    opacity: 1;
+    transition: all 200ms;
+}
+  
+.modal-exit {
+    transform: translateY(0);
+    opacity: 1;
+}
+  
+.modal-exit-active {
+    transform: translateY(-10rem);
+    opacity: 0;
+    transition: all 200ms;
+}
